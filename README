@@ -1,0 +1,32 @@
+Version .01:
+12/6/11
+
+Features:
+Email and/or SMS when temperature leaves given range
+Every two days you will get a message to confirm the software is still working if in acceptable range
+Buzzer will sound and lights will flash if out of range
+
+
+Needed features before production use:
+
+	Add timestamps to messages
+ 	Add real temperature readings in fahrenheit
+ 
+Longterm TODO:
+	Add script to help users configure their own temperature ranges and username/password for email
+	
+	Save temperatures every half an hour locally
+
+	Graph temperatures over time in webinterface
+
+	Add physical LCD screen to arduino to display currant temperatures in F
+
+	Add buttons that interface with the LCD to allow altering of desired temps
+
+	Twitter Integration
+
+Very long term TODO:
+
+	Add relay to turn on and off heater based on temps/changed by web and local interface
+
+	
